@@ -1,0 +1,41 @@
+@import '@styles/base';
+
+.card-container {
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(82, 82, 82, 0.18);
+
+    .card-content {
+        padding: 25px 15px;
+        height: 180px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .text-light-gray {
+        color: $light-gray;
+    }
+
+    .text-gray {
+        margin-top: 10px;
+        color: $gray;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}
+
+.bookmark-button {
+    position: absolute;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 15px;
+}

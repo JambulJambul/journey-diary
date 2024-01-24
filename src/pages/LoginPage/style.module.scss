@@ -1,0 +1,52 @@
+@import '@styles/base';
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper {
+    background-color: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: 100%;
+    margin-top: 20px;
+
+    .input-text {
+        border: $gray 2px solid;
+        background-color: $color-white-fade;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.create-account-message {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    color: $gray;
+    p {
+        font-style: italic;
+    }
+    b{
+        margin-left: 5px;
+    }
+}
+

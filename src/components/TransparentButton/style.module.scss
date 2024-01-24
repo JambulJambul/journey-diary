@@ -1,0 +1,11 @@
+@import '@styles/base';
+
+.button {
+    width: 100%;
+    color: $color-white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}

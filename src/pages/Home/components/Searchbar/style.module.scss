@@ -1,0 +1,21 @@
+@import '@styles/base';
+
+.searchbar-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.input-box{
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+.searchbar-button{
+    border-radius: 0px 5px 5px 0;
+    width: 10%;
+    color: $color-white;
+    background-color: $blue-button;
+    padding: 10px;
+    font-size: 18px;
+}

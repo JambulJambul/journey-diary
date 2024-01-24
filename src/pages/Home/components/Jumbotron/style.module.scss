@@ -1,0 +1,19 @@
+@import '@styles/base';
+
+.jumbotron-box{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url('/phuket.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    @include directionY;
+    justify-content: center;
+    h1,p{
+        color: white;
+        font-style: italic;
+    }
+}
+
+.content-container{
+    padding: 0 10vh;
+}
